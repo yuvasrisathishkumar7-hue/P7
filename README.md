@@ -1,57 +1,95 @@
-<h1 align="center"> COVID-19 DATA ANALYSIS & DASHBOARD SYSTEM </h1>
+<b><h1 align="center">COVID-19 DATA ANALYSIS & DASHBOARD SYSTEM (KAGGLE DATASET)</h1>
+
+<hr>
 
 <h2>PROJECT OVERVIEW</h2>
 
-The COVID-19 Data Analysis & Dashboard System is a data analytics project that analyzes global COVID-19 statistics using a country-wise dataset. The dataset contains important pandemic indicators such as confirmed cases, deaths, recoveries, and active cases.
+<p>
+The <b>COVID-19 Data Analysis & Dashboard System</b> is a data analytics project that studies the global spread of COVID-19 using a real-world dataset obtained from Kaggle.
+</p>
 
-The goal of this project is to perform Exploratory Data Analysis (EDA) to understand pandemic trends, identify high-risk countries, and visualize relationships between different COVID-19 variables.
+<p>
+This project analyzes important pandemic indicators such as <b>confirmed cases, deaths, recoveries, and active cases</b> across different countries. Using <b>Exploratory Data Analysis (EDA)</b>, the system identifies trends, patterns, and relationships within the dataset.
+</p>
 
-The project also includes an interactive dashboard that allows users to explore country-wise COVID-19 statistics dynamically using graphs and visualizations.
+<p>
+An <b>interactive dashboard</b> is also developed using <b>Plotly Dash</b> to visualize COVID-19 statistics and allow users to explore country-wise data dynamically.
+</p>
 
 <hr>
 
 <h2>PROBLEM STATEMENT</h2>
 
-The COVID-19 pandemic generated massive amounts of global health data across countries. Governments, healthcare organizations, and research institutions continuously publish statistics related to confirmed cases, deaths, recoveries, and active cases.
+<p>
+The COVID-19 pandemic generated massive volumes of global health data including confirmed cases, deaths, recoveries, and active cases.
+</p>
 
-However, analyzing such large datasets manually is difficult and time-consuming. Therefore, an automated system is required to clean, analyze, and visualize COVID-19 data efficiently to better understand pandemic trends and patterns.
+<p>
+Organizations such as the <b>World Health Organization (WHO)</b> and research institutions like <b>Johns Hopkins University</b> regularly publish pandemic datasets. However, manually analyzing such large datasets is complex and time-consuming.
+</p>
+
+<p>
+Therefore, there is a need for an automated system that can analyze pandemic data efficiently and provide meaningful insights through visualizations and dashboards.
+</p>
 
 <hr>
 
 <h2>DATASET DESCRIPTION</h2>
 
-The dataset contains country-wise COVID-19 statistics with the following columns:
+<table border="1" cellpadding="8" cellspacing="0">
+<tr>
+<th>COLUMN NAME</th>
+<th>DESCRIPTION</th>
+</tr>
 
-<b><i>
+<tr>
+<td>Country/Region</td>
+<td>Name of the country</td>
+</tr>
 
-| COLUMN    | DESCRIPTION                         |
-|----------|-------------------------------------|
-| Country  | Name of the country                 |
-| Confirmed| Total confirmed COVID-19 cases      |
-| Deaths   | Total number of deaths              |
-| Recovered| Total recovered COVID-19 cases      |
-| Active   | Currently active COVID-19 cases     |
+<tr>
+<td>Confirmed</td>
+<td>Total confirmed COVID-19 cases</td>
+</tr>
 
-</i></b>
+<tr>
+<td>Deaths</td>
+<td>Total number of deaths</td>
+</tr>
+
+<tr>
+<td>Recovered</td>
+<td>Total recovered cases</td>
+</tr>
+
+<tr>
+<td>Active</td>
+<td>Current active cases</td>
+</tr>
+
+</table>
+
+<br>
+
+<b>Dataset Source:</b> Kaggle <br>
+<b>Dataset Link:</b> https://www.kaggle.com/datasets/imdevskp/corona-virus-report
 
 <hr>
 
 <h2>PROJECT OBJECTIVES</h2>
 
-The main objectives of this project are:
-
 <ul>
 
 <li>Load and analyze the COVID-19 dataset</li>
 <li>Perform data cleaning and preprocessing</li>
-<li>Check missing values and remove duplicates</li>
-<li>Perform statistical analysis</li>
-<li>Identify high-risk countries</li>
-<li>Analyze relationships between pandemic variables</li>
-<li>Perform correlation analysis</li>
+<li>Check missing values and remove duplicate records</li>
+<li>Calculate descriptive statistics</li>
+<li>Analyze country-wise COVID-19 cases</li>
+<li>Identify the most affected countries</li>
+<li>Study relationships between confirmed, deaths, recovered, and active cases</li>
 <li>Visualize data using charts and graphs</li>
-<li>Develop an interactive dashboard</li>
-<li>Generate insights from COVID-19 data</li>
+<li>Build an interactive dashboard using Plotly Dash</li>
+<li>Generate insights from data visualization</li>
 
 </ul>
 
@@ -59,118 +97,166 @@ The main objectives of this project are:
 
 <h2>DATA CLEANING STEPS</h2>
 
-The following data cleaning operations were performed:
-
 <ul>
 
-<li>Selected required columns from the dataset</li>
-<li>Renamed columns for better readability</li>
-<li>Checked missing values using <b>isnull()</b></li>
+<li>Selected only required columns from the dataset</li>
 <li>Removed duplicate records</li>
-<li>Verified dataset structure using <b>info()</b></li>
-<li>Generated statistical summary using <b>describe()</b></li>
+<li>Checked missing values using <b>isnull()</b></li>
+<li>Converted numerical columns into proper data types</li>
+<li>Verified dataset consistency</li>
 
 </ul>
 
 <hr>
 
-<h2>COUNTRY RISK ANALYSIS</h2>
-
-Countries are categorized based on the number of confirmed cases.
-
-<b><i>
-
-| RISK LEVEL | CONDITION                                   |
-|-----------|-----------------------------------------------|
-| High Risk | Countries with very high confirmed cases      |
-| Medium Risk | Countries with moderate confirmed cases     |
-| Low Risk  | Countries with fewer confirmed cases          |
-
-</i></b>
-
-<hr>
-
 <h2>DATA ANALYSIS PERFORMED</h2>
 
-The following analyses were conducted:
+<h4>Country Based Analysis</h4>
 
 <ul>
+<li>Top 10 countries with highest confirmed cases</li>
+<li>Country-wise comparison of deaths</li>
+</ul>
 
-<h5>Descriptive Statistics</h5>
-<li>Mean</li>
-<li>Median</li>
-<li>Minimum</li>
-<li>Maximum</li>
-<li>Standard Deviation</li>
+<h4>Relationship Analysis</h4>
 
-<h5>Global Case Analysis</h5>
-<li>Total confirmed cases</li>
-<li>Total deaths</li>
-<li>Total recovered cases</li>
-<li>Total active cases</li>
+<ul>
+<li>Confirmed vs Deaths</li>
+<li>Confirmed vs Recovered</li>
+<li>Confirmed vs Active</li>
+</ul>
 
-<h5>Country-Based Analysis</h5>
-<li>Top countries by confirmed cases</li>
-<li>Countries with highest deaths</li>
-<li>Countries with highest recoveries</li>
+<h4>Correlation Analysis</h4>
 
-<h5>Relationship Analysis</h5>
-<li>Confirmed vs deaths</li>
-<li>Confirmed vs recovered</li>
-<li>Confirmed vs active</li>
+<ul>
+<li>Correlation matrix between numerical variables</li>
+</ul>
 
-<h5>Correlation Analysis</h5>
-<li>Correlation heatmap between variables</li>
+<h4>Dashboard Analysis</h4>
 
+<ul>
+<li>Interactive country dropdown selection</li>
+<li>Dynamic charts updating based on selected country</li>
 </ul>
 
 <hr>
 
 <h2>DATA VISUALIZATION</h2>
 
-The project includes several visualizations:
+<table border="1" cellpadding="8" cellspacing="0">
 
-<b><i>
+<tr>
+<th>CHART</th>
+<th>PURPOSE</th>
+<th>GRAPH UNDERSTANDING</th>
+</tr>
 
-| CHART | PURPOSE | GRAPH UNDERSTANDING / KEY POINTS |
-|------|---------|----------------------------------|
-| Bar Chart | Top countries by confirmed cases | Identifies high-risk countries |
-| Pie Chart | Global case distribution | Displays percentage of cases |
-| Scatter Plot | Confirmed vs deaths | Shows infection-death relationship |
-| Scatter Plot | Confirmed vs recovered | Shows recovery patterns |
-| Heatmap | Correlation matrix | Shows relationships between variables |
+<tr>
+<td>Bar Chart</td>
+<td>Top affected countries</td>
+<td>Shows countries with highest confirmed cases</td>
+</tr>
 
-</i></b>
+<tr>
+<td>Pie Chart</td>
+<td>Case distribution</td>
+<td>Displays percentage of confirmed, deaths, recovered, and active cases</td>
+</tr>
+
+<tr>
+<td>Scatter Plot</td>
+<td>Confirmed vs Deaths</td>
+<td>Shows relationship between cases and fatalities</td>
+</tr>
+
+<tr>
+<td>Scatter Plot</td>
+<td>Confirmed vs Recovered</td>
+<td>Shows recovery trends</td>
+</tr>
+
+<tr>
+<td>Scatter Plot</td>
+<td>Confirmed vs Active</td>
+<td>Indicates current pandemic severity</td>
+</tr>
+
+<tr>
+<td>Heatmap</td>
+<td>Correlation analysis</td>
+<td>Shows relationships between variables</td>
+</tr>
+
+<tr>
+<td>Line Chart</td>
+<td>Trend analysis</td>
+<td>Displays case growth patterns</td>
+</tr>
+
+</table>
 
 <hr>
 
-<h2>BAR CHART</h2>
+<h2>BAR CHART – TOP AFFECTED COUNTRIES</h2>
 
+<!-- INSERT BAR CHART IMAGE HERE -->
+
+<img width="811" height="391" alt="image" src="https://github.com/user-attachments/assets/cc36b7b2-6c97-4891-a772-7306b4e974c6" />
 
 
 <hr>
 
-<h2>PIE CHART</h2>
+<h2>BAR CHART – DEATHS</h2>
 
-Image
-
-<hr>
-
-<h2>SCATTER PLOT</h2>
-
-Image
+<img width="809" height="392" alt="image" src="https://github.com/user-attachments/assets/56cf6ac3-80ab-45bd-9018-42585ecec324" />
 
 <hr>
 
-<h2>HEATMAP</h2>
+<h2>PIE CHART – CASE DISTRIBUTION</h2>
 
-Image
+<!-- INSERT PIE CHART IMAGE HERE -->
+
+<img src="images/pie_chart.png" width="400">
 
 <hr>
 
-<h2>DASHBOARD</h2>
+<h2>SCATTER PLOT – CONFIRMED VS DEATHS</h2>
 
-Image
+<!-- INSERT SCATTER PLOT IMAGE HERE -->
+
+<img src="images/scatter_confirmed_deaths.png" width="500">
+
+<hr>
+
+<h2>SCATTER PLOT – CONFIRMED VS RECOVERED</h2>
+
+<!-- INSERT SCATTER PLOT IMAGE HERE -->
+
+<img src="images/scatter_confirmed_recovered.png" width="500">
+
+<hr>
+
+<h2>SCATTER PLOT – CONFIRMED VS ACTIVE</h2>
+
+<!-- INSERT SCATTER PLOT IMAGE HERE -->
+
+<img src="images/scatter_confirmed_active.png" width="500">
+
+<hr>
+
+<h2>HEATMAP – CORRELATION MATRIX</h2>
+
+<!-- INSERT HEATMAP IMAGE HERE -->
+
+<img src="images/heatmap.png" width="500">
+
+<hr>
+
+<h2>DASHBOARD INTERFACE</h2>
+
+<!-- INSERT DASHBOARD SCREENSHOT HERE -->
+
+<img src="images/dashboard.png" width="700">
 
 <hr>
 
@@ -184,8 +270,8 @@ Image
 <li>Matplotlib</li>
 <li>Seaborn</li>
 <li>Plotly</li>
-<li>Dash / JupyterDash</li>
-<li>Google Colab</li>
+<li>Dash</li>
+<li>Jupyter Notebook / Google Colab</li>
 
 </ul>
 
@@ -193,14 +279,12 @@ Image
 
 <h2>EXPECTED OUTCOME</h2>
 
-The analysis helps to:
-
 <ul>
 
 <li>Understand global COVID-19 trends</li>
-<li>Identify high-risk countries</li>
-<li>Study relationships between pandemic variables</li>
-<li>Improve data interpretation using visualization</li>
+<li>Identify countries with high infection rates</li>
+<li>Analyze relationships between pandemic variables</li>
+<li>Visualize data clearly using graphs</li>
 <li>Support data-driven insights and decision making</li>
 
 </ul>
@@ -209,10 +293,12 @@ The analysis helps to:
 
 <h2>CONCLUSION</h2>
 
-This project demonstrates how pandemic data can be analyzed using Python and data science techniques. By applying data cleaning, statistical analysis, visualization, and dashboard development, meaningful insights can be obtained from COVID-19 datasets.
+<p>
+This project demonstrates how pandemic data can be analyzed using <b>Python</b> and modern <b>data visualization techniques</b>.
+</p>
 
-The interactive dashboard further enhances the system by allowing users to explore country-wise COVID-19 statistics easily.
+<p>
+By applying <b>Exploratory Data Analysis (EDA)</b> and building an <b>interactive dashboard</b>, the system converts raw COVID-19 data into meaningful insights that help understand pandemic trends and patterns.
+</p>
 
-This project highlights the importance of data analytics in understanding global health crises and supporting informed decision-making.
-
-<hr>
+<hr> </b>
