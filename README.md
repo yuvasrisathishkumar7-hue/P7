@@ -215,8 +215,8 @@ Therefore, there is a need for an automated system that can analyze pandemic dat
 <h2>PIE CHART – CASE DISTRIBUTION</h2>
 
 <!-- INSERT PIE CHART IMAGE HERE -->
+<img width="808" height="389" alt="image" src="https://github.com/user-attachments/assets/417ac0a9-1d8c-433b-82b2-039fe7ee2311" />
 
-<img src="images/pie_chart.png" width="400">
 
 <hr>
 
@@ -224,7 +224,8 @@ Therefore, there is a need for an automated system that can analyze pandemic dat
 
 <!-- INSERT SCATTER PLOT IMAGE HERE -->
 
-<img src="images/scatter_confirmed_deaths.png" width="500">
+<img width="810" height="395" alt="image" src="https://github.com/user-attachments/assets/b59b601b-8633-45f7-8669-deb6b69317c9" />
+
 
 <hr>
 
@@ -232,7 +233,7 @@ Therefore, there is a need for an automated system that can analyze pandemic dat
 
 <!-- INSERT SCATTER PLOT IMAGE HERE -->
 
-<img src="images/scatter_confirmed_recovered.png" width="500">
+<img width="808" height="385" alt="image" src="https://github.com/user-attachments/assets/8baa145e-fe73-489f-856c-0cd27fc8a07b" />
 
 <hr>
 
