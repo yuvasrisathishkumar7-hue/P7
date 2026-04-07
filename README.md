@@ -241,7 +241,7 @@ Therefore, there is a need for an automated system that can analyze pandemic dat
 
 <!-- INSERT SCATTER PLOT IMAGE HERE -->
 
-<img src="images/scatter_confirmed_active.png" width="500">
+<img width="805" height="394" alt="image" src="https://github.com/user-attachments/assets/af909358-2995-4567-ab46-f711f37290b3" />
 
 <hr>
 
@@ -249,7 +249,7 @@ Therefore, there is a need for an automated system that can analyze pandemic dat
 
 <!-- INSERT HEATMAP IMAGE HERE -->
 
-<img src="images/heatmap.png" width="500">
+<img width="812" height="390" alt="image" src="https://github.com/user-attachments/assets/53e0cb71-bf5c-4d6b-bca5-0e0ad497be2d" />
 
 <hr>
 
@@ -257,7 +257,27 @@ Therefore, there is a need for an automated system that can analyze pandemic dat
 
 <!-- INSERT DASHBOARD SCREENSHOT HERE -->
 
-<img src="images/dashboard.png" width="700">
+<img width="1745" height="384" alt="image" src="https://github.com/user-attachments/assets/8e26be86-439c-4c71-b200-4f44e29f00f9" />
+
+<hr>
+
+<img width="1738" height="405" alt="image" src="https://github.com/user-attachments/assets/f9e8f3fb-6ff0-4831-a91a-84b7ee921fb2" />
+
+<hr>
+
+<img width="1743" height="360" alt="image" src="https://github.com/user-attachments/assets/9c26b1d0-bdb5-483b-83f6-68a62e8ca988" />
+
+<hr>
+
+<img width="1744" height="344" alt="image" src="https://github.com/user-attachments/assets/c88e832a-c9ad-4e48-81b4-392949f8b680" />
+
+<hr>
+
+<img width="1739" height="367" alt="image" src="https://github.com/user-attachments/assets/b3bfea72-6dc4-47e9-a8a3-7b7c1547a4d4" />
+
+<hr>
+
+<img width="1741" height="349" alt="image" src="https://github.com/user-attachments/assets/1463b88c-d9ff-4aee-af25-48966798915c" />
 
 <hr>
 
